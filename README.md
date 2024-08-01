@@ -1,2 +1,2 @@
 # CHALLENGE
-challenge my self at least solve one problem a day
+within this repository i challenge my self at least solve one problem a day
