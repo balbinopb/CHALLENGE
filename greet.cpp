@@ -1,19 +1,14 @@
-#include<iostream>
+#include <iostream>
+#include <string>
 
-using namespace std;
-
-string greet(string name) 
-{
-  //debug
-  //return "Hello, " + name + "!";
-  if(name == "Johnny") {
-    return "Hello, my love!";
+std::string greet(const std::string& name, const std::string& owner) {
+  if(name==owner){
+    return "Hello boss";
   }
-  return "Hello, " +name +"!";
+  return "Hello guest";
 }
 
 int main(){
-	cout<<greet("Beatriz")<<endl;
-	cout<<greet("Johnny")<<endl;
-	
+    greet("Daniel", "Daniel");
+    return 0;
 }
